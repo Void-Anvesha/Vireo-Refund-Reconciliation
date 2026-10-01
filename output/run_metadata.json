@@ -1,0 +1,12 @@
+{
+  "runtime_seconds": 7.1,
+  "classification_mode": "rules-only",
+  "refund_tickets": 2340,
+  "total_inr": 6709932.0,
+  "policy_flags": {
+    "goodwill_original_over_cap": 879,
+    "refund_and_replacement": 166,
+    "missing_order": 798,
+    "unresolved_order": 104
+  }
+}

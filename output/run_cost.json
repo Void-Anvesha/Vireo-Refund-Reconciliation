@@ -1,0 +1,24 @@
+{
+  "run_at_utc": "2026-10-01T13:19:30.779379+00:00",
+  "model": "claude-haiku-4-5-20251001",
+  "calls": 0,
+  "successful_responses": 0,
+  "input_tokens": 0,
+  "output_tokens": 0,
+  "cache_hits": 0,
+  "total_cost_usd": 0.0,
+  "errors": [],
+  "billing_uncertainty": false,
+  "input_usd_per_million": 1.0,
+  "output_usd_per_million": 5.0,
+  "pricing_source": "https://platform.claude.com/docs/en/about-claude/pricing",
+  "api_limit": null,
+  "key_configured": false,
+  "force_rules": true,
+  "elapsed_seconds": 0.136,
+  "classification_counts": {
+    "rules": 2340
+  },
+  "mode": "rules-only",
+  "pilot_status": "not run: no key or forced rules"
+}

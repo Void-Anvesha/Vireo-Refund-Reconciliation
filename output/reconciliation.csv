@@ -1,0 +1,5 @@
+stage,balance_minor,change_minor
+Raw export (mixed units),23012408100,0
+After duplicate removal,19402298100,-3610110000
+After paise correction,670993200,-18731304900
+Final reconciled refunds,670993200,0

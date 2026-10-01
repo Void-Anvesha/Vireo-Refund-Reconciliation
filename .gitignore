@@ -1,0 +1,42 @@
+# Python runtime/cache files
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Local secrets and machine-specific config
+.env
+.env.*
+!.env.example
+
+# Local API/cache state
+.cache/
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+
+# Excel/Office lock files
+~$*
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Large raw archives if someone creates them locally
+*.zip
+*.7z
+*.rar
+
+# Keep assignment deliverables such as output/, eval/to_label.csv,
+# MEMO.md, and submission-form.md visible for review.

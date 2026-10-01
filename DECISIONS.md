@@ -1,0 +1,23 @@
+# Decisions
+
+- Keep the helpdesk copy of duplicate ticket IDs: it is the current-system record.
+- Convert legacy_fd amounts from paise to rupees only: source units differ; assert monetary legacy rows precede 14 September 2025; the one nonmonetary cutover-day row is retained and audited.
+- Bucket refunds by created_at in IST: this is the specified reporting month, not a payment-date ledger.
+- Refund spend includes refund_amount_inr only: replacement planning costs and Rs 350 SLA credits are separate.
+- Include open and pending tickets carrying refunds: money exists regardless of workflow status; report status separately.
+- Group teams before agents, retain low-volume agents with an explicit flag below 20 refund tickets over the full period: retaining them preserves reconciliation; do not rank agents or compare tiers on volume.
+- Use inferred reason only at confidence >=0.7; otherwise retain the original reason and mark needs review: uncertainty must stay visible.
+- Match roster validity at resolved_at, falling back to created_at for unfinished tickets: the roster describes the resolving agent; dates are inclusive and overlapping matches fail validation.
+- Use the roster team for agent ownership and preserve assigned_team as initial routing: handoffs must not be mistaken for individual fault.
+- Use customer_id + SKU only when order_id is absent and exactly one nonfuture order matches: ambiguous orders remain unresolved to avoid fabricated matches or multiplied money.
+- Treat direct order customer/SKU/date conflicts as unresolved: do not silently override an explicit order ID.
+- Store accounting values as integer paise: summaries reconcile exactly without floating-point rounding drift.
+- Apply supplied policy v3.2 consistently to the historical pack, including Q1 2025: earlier policy versions are unavailable, so pre-April policy flags are retrospective screening.
+- Rules confidence is a heuristic, not a calibrated probability: human evaluation is required before trusting classification accuracy.
+- Report original-code and inferred-code goodwill flags separately: a dropdown mistake is not proof of an excessive goodwill payment.
+- Estimate SLA credits on breached resolved/closed tickets: no credit ledger was supplied, so these are policy-derived estimates rather than verified payments.
+- Include the required channel comparison in the rise analysis: optional deeper channel drill-down remains out of scope.
+- Treat CSAT changes as association, not proof of causation: survey nonresponse and changing case mix can affect means.
+- Route generic return/refund-delay text below the confidence threshold unless QC completion is explicit: refund delay alone does not establish RETURN-QC-OK.
+- Value the below-1% target at each quarter's observed mean double-compensation costs and unchanged refund volume: the range is a scenario estimate, not guaranteed recovery or additive savings.
+- Reconcile complete partition tables to the full total and filtered sheets to their corresponding ticket subsets: summing review queues or comparisons as if they were disjoint totals would be incorrect.

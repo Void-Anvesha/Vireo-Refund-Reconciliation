@@ -1,0 +1,44 @@
+{
+  "raw_rows": 12238,
+  "clean_rows": 11600,
+  "duplicate_ticket_ids": 638,
+  "removed_rows": 638,
+  "refund_tickets": 2340,
+  "refund_minor": 670993200,
+  "legacy_rows_converted": 3236,
+  "legacy_rows_on_or_after_cutover": 1,
+  "missing_roster_rows": 0,
+  "raw_quarters_inr": {
+    "2025Q1": 61049992.0,
+    "2025Q2": 72879635.0,
+    "2025Q3": 92028618.0,
+    "2025Q4": 1627575.0,
+    "2026Q1": 1258438.0,
+    "2026Q2": 1279823.0
+  },
+  "original_gw_tickets": 991,
+  "original_gw_inr": 2907036.0,
+  "original_gw_value_share": 0.43324373480983114,
+  "missing_order_share": 0.34102564102564104,
+  "double_compensation_rate": 0.07094017094017094,
+  "double_compensation_refund_inr": 574191.0,
+  "double_compensation_replacement_inr": 296970.0,
+  "double_compensation_by_resolving_team": {
+    "Chat Frontline": 51,
+    "Logistics": 49,
+    "Email Frontline": 24,
+    "Returns Desk": 14,
+    "Escalations & Warranty": 13,
+    "Voice Frontline": 12,
+    "Billing": 3
+  },
+  "double_compensation_by_initial_team": {
+    "Chat Frontline": 50,
+    "Logistics": 48,
+    "Email Frontline": 22,
+    "Voice Frontline": 19,
+    "Returns Desk": 13,
+    "Escalations & Warranty": 11,
+    "Billing": 3
+  }
+}

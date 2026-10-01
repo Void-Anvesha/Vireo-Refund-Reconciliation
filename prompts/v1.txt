@@ -1,0 +1,1 @@
+Classify the refund reason from customer message and agent notes using the supplied refund codes. Return reason, confidence, and evidence as JSON.

@@ -1,0 +1,13 @@
+classifier,ticket_id,human_reason,prediction,confidence,message,notes,why
+rules,TK-251413,LOST-TRANSIT,GW-OTHER,0.3,"Hello Vireo, Order VR886951 (my Nexa 2 watch). The parcel looked like it was kicked here from the warehouse, and the unit has a crack. I refuseed nothing as I didn't notice till later. Nothing changed. I want my money back. Awaiting response",cx states unit received damaged. Checked w/ crr for damage claim. Reverse pickup arranged. Refunded. Replacement request rejected as per policy. //AIS,Predicted GW-OTHER versus human LOST-TRANSIT; inspect ambiguity and missing policy conditions. Root cause requires reviewer judgment.
+rules,TK-248945,WTY-BUYBACK,GW-OTHER,0.3,"hello
+batetry backup is terrible now
+nexa watch
+urent","1. Rapid battery drain
+2. chk usage pattern with cx
+3. rplc unit dispatched (SOP 3.1) Both refund and replacement given as cx threatened social media. //SUK",Predicted GW-OTHER versus human WTY-BUYBACK; inspect ambiguity and missing policy conditions. Root cause requires reviewer judgment.
+rules,TK-252215,LOST-TRANSIT,GW-OTHER,0.3,"[IVR transcript] Hi there, Ordered my Nexa in April. Opened the parcel and it is a completely different thing. I checked the invoice. Nothing changed. Can someone fix this? Thank you, Swati",refund of rs 4249 initiated to source. issue: incorrect product shipped. raised with warehouse.,Predicted GW-OTHER versus human LOST-TRANSIT; inspect ambiguity and missing policy conditions. Root cause requires reviewer judgment.
+rules,TK-246204,WTY-BUYBACK,GW-OTHER,0.3,"Bought my Pulse 2 around 28-09-2025 from Flipkart. Whaat is the status of my warranty claim. I emailed twice. Nothing changed. Please help. Awaiting response,",customer states repair status follow-up. checked rma status. refunded rs 3324.,Predicted GW-OTHER versus human WTY-BUYBACK; inspect ambiguity and missing policy conditions. Root cause requires reviewer judgment.
+rules,TK-241939,DUP-PAYMENT,GW-OTHER,0.3,"paid via upi, amount deducted, no order confirmation
+vr891057
+i want a replacement",Contat re amunt deducted without ord. chk PG dashboard for txn. ord manually created. Closing.,Predicted GW-OTHER versus human DUP-PAYMENT; inspect ambiguity and missing policy conditions. Root cause requires reviewer judgment.

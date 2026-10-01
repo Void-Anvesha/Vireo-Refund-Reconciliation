@@ -1,0 +1,10 @@
+table,refund_minor,scope
+Summary,670993200,Full refund population; exact integer-paise reconciliation
+By Team,670993200,Full refund population; exact integer-paise reconciliation
+By Reason,670993200,Full refund population; exact integer-paise reconciliation
+By Agent,670993200,Full refund population; exact integer-paise reconciliation
+Mismatch Matrix,670993200,Full refund population; exact integer-paise reconciliation
+Status,670993200,Full refund population; exact integer-paise reconciliation
+Quarters,670993200,Full refund population; exact integer-paise reconciliation
+Policy Flags,545750000,"Filtered subset of 1861 tickets, not additive to full total"
+Needs Review,323312600,"Filtered subset of 1105 tickets, not additive to full total"
