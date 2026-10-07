@@ -1,6 +1,6 @@
 # Vireo refund review
 
-A small Python pipeline producing a reconciled Excel board pack and a generated, nontechnical memo. Current delivered run uses the rules baseline because no Anthropic API key was configured. Financial conclusions use code, not AI.
+A small Python pipeline producing a reconciled Excel board pack and a generated, nontechnical memo. Current delivered run uses the rules baseline because no Anthropic API key was configured. Financial conclusions use code.
 
 ## Setup and run
 
